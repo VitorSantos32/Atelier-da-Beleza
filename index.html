@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier da Beleza | Sofisticação e Estilo</title>
+    <meta name="description" content="Um refúgio de beleza e conforto. Especialistas em mechas, progressivas, manicure, pedicure e boutique exclusiva.">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/jpeg" href="/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <img src="/logo.jpg" alt="Atelier da Beleza Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#boutique">Boutique</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="mobile-nav" id="mobile-nav">
+                <ul class="mobile-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#boutique">Boutique</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="video-background">
+                <video autoplay muted loop playsinline id="hero-video">
+                    <source src="/videocomaudio.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="hero-content container">
+                <h1 class="reveal">ATELIER da BELEZA</h1>
+                <p class="reveal delay-1">Onde sua beleza encontra o estilo em cada detalhe.</p>
+                <div class="hero-btns reveal delay-2">
+                    <a href="https://wa.me/5575991958961" class="btn btn-primary">Falar no WhatsApp</a>
+                    <a href="#servicos" class="btn btn-secondary">Conhecer Serviços</a>
+                </div>
+                <p class="reveal delay-2" style="margin-top: 1rem; font-size: 0.9rem; letter-spacing: 1px; color: var(--accent-color);">Atendimento por Ordem de Chegada</p>
+            </div>
+        </section>
+
+        <section id="servicos" class="services">
+            <div class="container">
+                <h2 class="section-title reveal">Nossos Serviços</h2>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <div class="service-icon">✂️</div>
+                        <h3>Mechas & Coloração</h3>
+                        <p>Técnicas modernas para realçar sua luz natural.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon">✨</div>
+                        <h3>Progressivas</h3>
+                        <p>Liso perfeito com saúde e brilho intenso.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon">💅</div>
+                        <h3>Manicure & Pedicure</h3>
+                        <p>Cuidado completo para suas mãos e pés com acabamento impecável.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon">🧸</div>
+                        <h3>Penteados</h3>
+                        <p>Arte em fios para qualquer celebração.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="history-video">
+            <div class="container">
+                <div class="history-content flex-row">
+                    <div class="history-text reveal">
+                        <h2 class="section-title">Nossa História</h2>
+                        <p>No Atelier da Beleza, cada cliente é única. Nossa jornada é marcada pela paixão em transformar e elevar a autoestima através de um atendimento personalizado e premium.</p>
+                    </div>
+                    <div class="video-featured reveal">
+                        <div class="video-container">
+                            <video controls poster="/fotodona.jpg">
+                                <source src="/videocomaudio.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="precos" class="prices-section">
+            <div class="container">
+                <h2 class="section-title reveal">Nossos Valores</h2>
+                <div class="price-grid">
+                    <div class="price-category reveal">
+                        <h3>Cabelo</h3>
+                        <ul>
+                            <li><span>Corte</span> <span>R$ 50,00</span></li>
+                            <li><span>Hidratação</span> <span>Consulte</span></li>
+                            <li><span>Tratamento Wella/Loreal</span> <span>Consulte</span></li>
+                            <li><span>Progressiva / Selinho</span> <span>Consulte</span></li>
+                            <li><span>Mechas & Coloração</span> <span>Consulte</span></li>
+                            <li><span>Escova / Penteado</span> <span>Consulte</span></li>
+                        </ul>
+                    </div>
+                    <div class="price-category reveal delay-1">
+                        <h3>Mãos & Pés</h3>
+                        <ul>
+                            <li><span>Pé e Mão</span> <span>R$ 50,00</span></li>
+                            <li><span>Mão</span> <span>R$ 25,00</span></li>
+                            <li><span>Pé</span> <span>R$ 25,00</span></li>
+                            <li><span>Hidratação nos Pés</span> <span>R$ 25,00</span></li>
+                            <li><span>Raspagem de Calos</span> <span>R$ 30,00</span></li>
+                            <li><span>Repôs dos pés</span> <span>R$ 50,00</span></li>
+                        </ul>
+                    </div>
+                    <div class="price-category reveal delay-2">
+                        <h3>Estética & Depilação</h3>
+                        <ul>
+                            <li><span>Sobrancelha</span> <span>Consulte</span></li>
+                            <li><span>Buço / Axilas</span> <span>R$ 20,00</span></li>
+                            <li><span>Meia Perna</span> <span>R$ 30,00</span></li>
+                            <li><span>Perna Inteira</span> <span>R$ 60,00</span></li>
+                            <li><span>Decote Simples</span> <span>R$ 50,00</span></li>
+                            <li><span>Decote Completo</span> <span>R$ 55,00</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-info reveal">
+                    <p><strong>Note:</strong> Alguns serviços variam de acordo com o comprimento do cabelo ou técnica utilizada. Atendemos exclusivamente por <strong>ordem de chegada</strong>.</p>
+                    <a href="https://wa.me/5575991958961" class="btn btn-primary">Dúvidas no WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="boutique" class="boutique-section">
+            <div class="container">
+                <h2 class="section-title reveal">Boutique Exclusive</h2>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <img src="/565423235_18081693745958375_6737205602551249947_n.webp" alt="Boutique Item 1" class="boutique-img">
+                        <h3>Tendências</h3>
+                        <p>Peças selecionadas para complementar seu novo visual.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <img src="/566758544_18081692425958375_2528030681743657474_n.webp" alt="Boutique Item 2" class="boutique-img">
+                        <h3>Acessórios</h3>
+                        <p>Detalhes que fazem a diferença na sua composição.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reels" class="reels-section">
+            <div class="container">
+                <h2 class="section-title reveal">Fique por dentro</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item reveal">
+                        <video loop muted autoplay playsinline>
+                            <source src="/snapinsta.com.br-69d6f74aea892.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="gallery-item reveal">
+                        <video loop muted autoplay playsinline>
+                            <source src="/snapinsta.com.br-69d6f8040d21a.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="gallery-item reveal">
+                        <video loop muted autoplay playsinline>
+                            <source src="/snapinsta.com.br-69d6f8450bc6c.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title reveal">Galeria de Transformações</h2>
+                <div class="gallery-grid">
+                    <!-- Photos from public folder will be listed here -->
+                    <div class="gallery-item reveal"><img src="/564174811_18081694390958375_8955643557070761181_n.jpg" alt="Transformação 1"></div>
+                    <div class="gallery-item reveal"><img src="/566001110_18081773587958375_7062202582479109705_n.jpg" alt="Transformação 2"></div>
+                    <div class="gallery-item reveal"><img src="/569376450_18083560864958375_2589919751839162234_n.jpg" alt="Transformação 3"></div>
+                    <div class="gallery-item reveal"><img src="/573589494_18083537677958375_4264764979173207715_n.jpg" alt="Transformação 4"></div>
+                    <div class="gallery-item reveal"><img src="/588715492_18087090499958375_2752137438385854843_n.jpg" alt="Transformação 5"></div>
+                    <div class="gallery-item reveal"><img src="/625089355_18093243847958375_3894997847581940306_n.jpg" alt="Transformação 6"></div>
+                    <div class="gallery-item reveal"><img src="/insta_3.webp" alt="Transformação 9"></div>
+                    <div class="gallery-item reveal"><img src="/insta_4.webp" alt="Transformação 10"></div>
+                    <div class="gallery-item reveal"><img src="/insta_5.webp" alt="Transformação 11"></div>
+                    <div class="gallery-item reveal"><img src="/insta_6.jpg" alt="Transformação 12"></div>
+                    <div class="gallery-item reveal"><img src="/insta_7.jpg" alt="Transformação 13"></div>
+                    <div class="gallery-item reveal"><img src="/insta_8.jpg" alt="Transformação 14"></div>
+                    <div class="gallery-item reveal"><img src="/insta_9.jpg" alt="Transformação 15"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <div class="container flex-row">
+                <div class="about-image reveal">
+                    <img src="/fotodona.jpg" alt="Dona do Atelier">
+                </div>
+                <div class="about-text reveal">
+                    <h2 class="section-title">Sobre o Atelier</h2>
+                    <p>Referência em beleza e sofisticação, o Atelier da Beleza nasceu do sonho de oferecer um espaço onde você se sente acolhida e sai ainda mais confiante.</p>
+                </div>
+            </div>
+        <section id="contato" class="location-section">
+            <div class="container flex-row">
+                <div class="location-text reveal">
+                    <h2 class="section-title" style="text-align: left; margin-left: 0;">Onde Estamos</h2>
+                    <p>Visite-nos e viva uma experiência única de beleza e bem-estar.</p>
+                    <p><strong>Endereço:</strong> n°130, R. Rubéns Ribeiro, Itaberaba - BA, 46880-000</p>
+                    <a href="https://www.google.com/maps/place/Atelier+da+Beleza/@-12.5319519,-40.3075083,18.5z/data=!4m6!3m5!1s0x76abe0044cc5d77:0xb79dd771fac9e38a!8m2!3d-12.5318757!4d-40.3069586!16s%2Fg%2F11g7z6rjp_?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn btn-primary" style="margin: 2rem 0;">Ver no Google Maps</a>
+                </div>
+                <div class="map-container reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1947.380757312004!2d-40.3075083!3d-12.5319519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76abe0044cc5d77%3A0xb79dd771fac9e38a!2sAtelier%20da%20Beleza!5e0!3m2!1spt-BR!2sbr!4v1775698059935!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/logo.jpg" alt="Logo">
+                    <p>Atelier da Beleza</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/atelier_dabelezaita/" target="_blank">Instagram</a>
+                    <a href="https://wa.me/5575991958961" target="_blank">WhatsApp</a>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2026 Atelier da Beleza. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
