@@ -72,3 +72,13 @@ if (heroVideo) {
 }
 
 console.log('Atelier da Beleza - Experience Loaded');
+
+// Mobile Video Autoplay Fix: Force play on first user interaction
+document.addEventListener('touchstart', () => {
+    const video = document.getElementById('hero-video');
+    if (video) {
+        video.muted = true;
+        video.play().catch(err => console.log('Video play failed:', err));
+    }
+}, { once: true });
+
