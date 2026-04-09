@@ -336,6 +336,23 @@ section {
     overflow: hidden;
 }
 
+.dual-maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: white;
+}
+
+.map-box h4 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .section-title::after {
     left: 50%; /* Default center */
 }
@@ -560,12 +577,12 @@ footer {
     }
 
     .map-container {
-        height: 300px;
+        height: auto;
     }
 
-    .footer-social {
-        flex-direction: column;
-        gap: 1rem;
+    .dual-maps {
+        grid-template-columns: 1fr;
+        padding: 1rem;
     }
 }
 
